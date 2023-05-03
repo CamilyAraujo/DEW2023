@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <h1>Formulários</h1>
+     <form action="" method="">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        <div>
+        
+          <label for="nome_usuario">Nome: </label><!--Label insere um rótulo-->
+          <input type="text" name="nome_usuario" id="nome_usuario"
+          size="9" maxlenght="21" minlength="3" placeholder="Digite seu nome">
+          
+        </div>
+    </fieldset>
+        <br>
+        <!--Input text é um campo de entrada de texto-->
+         <div>
+             <label for="senha" >Senha:</label>
+            <input type="password" name="senha" id="senha"
+            size="9" lang="3">
+        </div>
+            <br>
+        <div>
+            <label for="">Hobbies</label>
+            <br>
+            <input type="checkbox" name="Esportes" id="Esportes">
+            <label for="Esporte">Esportes</label>
+            <input type="checkbox" name="cinema" id="cinema">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox"  name="leitura" id="leitura">
+            <label for="leitura">Leitura</label>
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha o tipo</label>
+            <br>
+            <input type="radio" name="tipo" id="adulto" checked>
+            <label for="adulto">adulto</label>
+            <input type="radio" name="tipo" id="adolescente">
+            <label for="adolescente">adolescente</label>
+            <input type="radio" name="tipo" id="criança">
+            <label for="criança">criança</label>
+        </div>
+        <br>
+        <div>
+            <label for="arquivo">Escolha o arquivo:</label>
+            <input type="file" name="arquivo" id="arquivo" accept="image/png, image/jpeg">
+        </div>
+        <div>
+            <label for="">Escolha a opção</label>
+            <select name="opc" id="opc">
+                <option value="tsi">TSI</option>
+                <option value="tme">TME</option>
+                <option value="inf">Informática</option>
+                <option value="adm">Administração</option>
+            </select>
+        </div>
+            <br>
+            <div>
+                <textarea name="" id="" cols="30" rows="10"
+                placeholder="Deixe seu recado"></textarea>
+            </div>
+            <div>
+                <label for="arquio">Escolha um arquivo: </label>
+                <input type="file" name="arquivo" id="arquivo">
+            </div>
+        <div>
+            <button type="submit" >Enviar </button>
+            <button type="reset" >Apagar</button>
+            <!-- Botões-->
+            <!--Input type="submit" value="enviar"-->
+            <!--input type="reset" value="apagar"-->
+
+        </div>
+
+    </form>
+</body>
+</html>
