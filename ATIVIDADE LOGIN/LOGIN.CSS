@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    background-color: aquamarine;
+    
+}
+/*background color muda a cor de fundo*/
+
+.b{
+    font-family: 'Courier New', Courier, monospace; color: brown;
+
+    text-align: center
+}
+/*font familt muda a fonte da div e color muda a cor */
